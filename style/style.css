@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: "100vh";
+}
+
+span {
+  font-family: "Bowlby One SC", cursive;
+  /* font-family: 'Sorts Mill Goudy', serif; */
+  letter-spacing: 5px;
+}
+.letters_net {
+  color: white;
+}
+.letters_flix {
+  color: red;
+}
+.letter_n,
+.letter_f {
+  font-size: 35px;
+}
+body {
+  background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/ac9aedf1-a687-4c5d-965c-2fc3eac84aea/85ef3ff1-c7ba-4109-8a82-7d2e55695ed4/TR-tr-20221206-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+}
+
+.container {
+  margin: 4%;
+  background: rgba(0, 0, 0, 0.5);
+  padding-bottom: 20px;
+}
+
+form {
+  /* text-align: ; */
+  width: 330px;
+  margin: auto;
+  opacity: 0.9;
+}
+.anadiv {
+  background-color: black;
+
+  color: white;
+  padding: 10px;
+}
+.cik {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 300px;
+  padding: 10px;
+}
+
+.üç {
+  padding: 5px;
+  margin-top: 10px;
+  width: 280px;
+}
+.id {
+  margin: 20px;
+}
+
+.cbeş {
+  text-align: center;
+}
+.altı {
+  background-color: red;
+  width: 100px;
+  padding: 10px;
+  border: none;
+  border-radius: 70px;
+  color: white;
+}
+.altı:hover {
+  cursor: pointer;
+  font-weight: 700;
+  background-color: mediumturquoise;
+}
+textarea {
+  margin-top: 10px;
+  resize: none;
+}
+h1 {
+  font-family: "Anton", sans-serif;
+  display: inline-block;
+  color: white;
+}
+#h1 {
+  font-family: "Anton", sans-serif;
+  color: red;
+}
+.h3 {
+  /* font-family: 'Open Sans', sans-serif; */
+  padding: 10px;
+  text-align: center;
+}
+h2 {
+  color: white;
+  font-size: 15px;
+}

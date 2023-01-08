@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Netflix</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bowlby+One+SC&family=Sorts+Mill+Goudy:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style/style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="h3">
+        <h1>
+          <span class="letters_net"> <span class="letter_n">N</span>ET</span
+          ><span class="letters_flix"><span class="letter_f">F</span>LIX</span>
+        </h1>
+
+        <h2>
+          Thank you for singning up at Netflix.Tell US more about your self
+        </h2>
+      </div>
+
+      <form action="">
+        <div class="anadiv">
+          <div>
+            <label for="Name">Name</label>
+            <br />
+            <input
+              class="cik"
+              type="text"
+              name="Name"
+              id="Name"
+              placeholder="Enter Your Name"
+              required
+            />
+          </div>
+          <div>
+            <label for="Age">Age</label>
+            <br />
+            <input
+              class="cik"
+              type="Number"
+              name="Age"
+              id="Age"
+              placeholder="Age"
+              required
+            />
+          </div>
+          <div>
+            <label for="Email">Email</label>
+            <br />
+            <input
+              class="cik"
+              type="Email"
+              name="Email"
+              id="Email"
+              placeholder="Enter Your email"
+              required
+            />
+          </div>
+          <div>
+            <label for="Content type">Content type</label>
+            <br />
+            <select class="üç" name="content type" id="Content type">
+              <option value="Select type">Select type</option>
+              <option value="Documantry">Documantry</option>
+              <option value="Movies">Movies</option>
+              <option value="Series">Series</option>
+            </select>
+          </div>
+        </div>
+        <div class="anadiv">
+          <label for="Movie type">Movie type</label>
+          <br />
+          <input type="Checkbox" name="aa" id="Comedy" />
+          <label for="Comedy">Comedy</label>
+          <br />
+          <input type="Checkbox" name="aa" id="Action" />
+          <label for="Action">Action</label>
+          <br />
+          <input type="Checkbox" name="aa" id="Romance" />
+          <label for="Romance">Romance</label>
+        </div>
+        <div class="anadiv">
+          <!--name kısmı aynı olacaktır -->
+          <label for="Gender">Gender</label>
+          <br />
+          <input type="radio" name="aa" id="Male" />
+          <label for="Male">Male</label>
+          <br />
+          <input type="radio" name="aa" id="Famale" />
+          <label for="Female">Female</label>
+          <br />
+          <input type="radio" name="aa" id="Other" />
+          <label for="Other">Other</label>
+        </div>
+        <div class="anadiv" id="feed">
+          <label for="Feed back">Feed back</label>
+          <br />
+          <textarea
+            name="Feed back"
+            id="Any comment"
+            cols="30"
+            rows="5"
+            placeholder="Any comment..."
+          ></textarea>
+        </div>
+        <div class="anadiv">
+          <div class="cbeş">
+            <input class="altı" type="submit" value="Submit" />
+          </div>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
