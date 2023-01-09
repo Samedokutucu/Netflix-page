@@ -1,4 +1,4 @@
-![gif](/img/netflix.gif)
+![gif](/img/Netflix.gif)
 
 # What I used in this project?
 
